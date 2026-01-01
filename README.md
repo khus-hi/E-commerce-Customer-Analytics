@@ -15,29 +15,9 @@ Using a combination of lifecycle metrics, customer segmentation, predictive mode
 * Which customers are likely to generate the highest future value?
 * Which high-value customers are at risk of churn and should be prioritized for retention?
 
-## Project Structure
-
-ecommerce-online-retail/
-│
-├── data/
-│   ├── raw/online_retail.xlsx
-│   ├── processed/
-│   │   ├── online_retail_clean.csv
-│   │   └── rfm_segments.csv
-│
-├── notebooks/
-│   ├── 01_cleaning_eda.ipynb
-│   ├── 02_funnel_metrics.ipynb
-│   ├── 03_rfm_segmentation.ipynb
-│   ├── 04_clv_prediction.ipynb
-│   └── 05_churn_model.ipynb
-│
-├── dashboard/           
-├── README.md
-
 ## Dataset
 
-Source: UCI Online Retail Dataset
+Source: **UCI Online Retail Dataset**
 
 Data Type: Transaction-level retail purchase data
 
